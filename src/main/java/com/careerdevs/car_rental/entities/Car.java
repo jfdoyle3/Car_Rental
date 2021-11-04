@@ -13,6 +13,8 @@ public class Car {
     private String type;
     private Integer year;
 
+    public Car(){}
+
     public Car( String brand, String name, String type, Integer year) {
         this.brand = brand;
         this.name = name;

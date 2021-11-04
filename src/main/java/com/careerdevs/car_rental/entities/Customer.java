@@ -12,6 +12,8 @@ public class Customer {
     private String name;
     private String carPurchased;
 
+    public Customer(){}
+
     public Customer(String name, String carPurchased) {
         this.name = name;
         this.carPurchased = carPurchased;

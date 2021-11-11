@@ -62,14 +62,4 @@ public class Car {
         this.year = year;
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "id=" + id +
-                ", brand='" + brand + '\'' +
-                ", name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", year=" + year +
-                '}';
-    }
 }

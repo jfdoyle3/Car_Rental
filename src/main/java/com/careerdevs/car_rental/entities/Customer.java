@@ -43,12 +43,4 @@ public class Customer {
         this.carPurchased = carPurchased;
     }
 
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", carPurchased='" + carPurchased + '\'' +
-                '}';
-    }
 }
